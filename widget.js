@@ -48,19 +48,19 @@ WAF.define('WakendoColorPicker', ['waf-core/widget', 'wakendoCore'], function(wi
         },
 
         open: function() {
-        	self.kendoWidget.open();
+        	this.kendoWidget.open();
         },
 
         close: function() {
-        	self.kendoWidget.close();
+        	this.kendoWidget.close();
         },
 
         enable: function() {
-        	self.kendoWidget.enable();
+        	this.kendoWidget.enable();
         },
 
         disable: function() {
-        	self.kendoWidget.enable(false);
+        	this.kendoWidget.enable(false);
         }
 
     });
